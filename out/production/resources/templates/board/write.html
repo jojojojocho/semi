@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+  <form action="/board/save" method="post">
+    <div class="form-group">
+      <input type="text" id="title" name="title" placeholder="제목을
+입력하세요">
+      <input type="text" id="name" name="name" placeholder="이름을
+입력하세요">
+    </div>
+
+    <p><textarea cols="50" rows="10" id="time"  name="body"></textarea></p>
+
+    <p><button type="submit">등록</button></p>
+  </form>
+</div> <!-- /container -->
+</body>
+</html>
